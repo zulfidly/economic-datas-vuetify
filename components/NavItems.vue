@@ -10,11 +10,6 @@
                     title="BNM"
                 ></v-list-item>
             </template>
-            <v-list-item 
-                to="/bnm/otherIndicators/msb51" 
-                title="Other Indicators" 
-            />
-
             <v-list-group>
                 <template v-slot:activator="{ props }">
                     <v-list-item 
@@ -31,6 +26,11 @@
                     title="Financial Consumer Alert" 
                 />
             </v-list-group>
+            <v-list-item 
+                to="/bnm/otherIndicators/msb51" 
+                title="Other Indicators" 
+            />
+
 
             <v-list-group>
                 <template v-slot:activator="{ props }">

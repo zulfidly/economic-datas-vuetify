@@ -9,7 +9,9 @@
                     <ColorModeSwitch />
                 </v-toolbar>
             </v-app-bar>
-            <slot />
+            <v-main>
+                <slot />
+            </v-main>
             <v-navigation-drawer
                 location="left"
                 :permanent="true"
